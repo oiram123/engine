@@ -136,7 +136,7 @@ public:
 };
 
 
-//Simulate 1000 match in one single thread
+//Simulate 1000 match in one multiple thread
 
 // Global mutex for thread safety when updating the shared results
 std::mutex mtx;
